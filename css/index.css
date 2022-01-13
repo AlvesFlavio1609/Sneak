@@ -1,0 +1,55 @@
+body{
+
+
+}
+ul{
+    background: ;
+}
+
+.lista-inicial{
+    text-decoration: none;
+color:  blueviolet;
+}
+
+.titulo{
+ color: royalblue;
+ font-weight: bolder;
+ transition: 3s allS;
+ 
+}
+.titulo:hover {
+    background: blue;
+}
+
+.texto{
+    margin: 30px;
+}
+
+.texto::after{
+    content:  " Elemento posterior";
+
+
+}
+.texto::before{
+    content: " Elemento anterior";
+
+}
+
+.section-initial{
+border: 2px solid blue
+
+}
+.corra{
+    background-image: url("../img/correr.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 500px;
+    height: 500px;       
+    
+    
+
+}
+   
+
+
+}
